@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.aheader{
+    background-color: rgb(101, 201, 167);
+    color: #2b8686;
+    text-decoration:none;
+    text-align: center;
+    padding: 0.3%;
+    border-radius: 5px;
+    margin: 0.3%;
+    font-size: 20px;
+    left: 0;
+
+} 
+h2{
+    margin: 30px;
+    text-align: center;
+}
+p{
+    margin: 10px;
+}
+div.fija{
+    
+    top: 0;
+    background-color: rgb(203, 249, 234);
+    width: 100%;
+    padding-bottom: 20px;
+    
+
+}
+
+.aheader:hover{
+    outline: 1px solid rgb(21, 102, 95);
+}
+
+.aheader:visited{
+    color: rgb(183, 245, 224);
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    
+}
+
+footer{
+    background-color: rgb(203, 249,234 );
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.redes{
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 0px 5px;
+    font-size: 2vw; 
+    
+}
+
+.suc{
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+   
+}
+.contenedor{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+     
+}
+div a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+    
+}
+.contenedor2{
+    display: grid;
+    grid-template-columns: 40% 30% 30% ;
+    grid-gap: 10px;
+    padding: 20px;
+}
+.item1{
+    margin: 5%;
+}
+.item2{
+    grid-area: 1/2/2/span2;
+}
+#foto{
+    max-width: 600px;
+    margin: auto;
+}
+/* formularios*/
+label, input{
+    font-size: 1.0vw;
+}
+input[type="text"], input[type="email"], input[type="tel"],
+select{
+width: 70%;
+padding: 1vw;
+margin:8px 0;
+display: inline-block;
+border:1px solid ;
+border-radius: 4px;
+box-sizing: border-box;
+
+}
+.formulario{
+    
+    border-radius: 5px;
+    background-color: #f0fcf0;
+    padding: 10%;
+    margin: 1% 10%;
+    box-sizing: border-box;
+}
+#boton{
+    width: 20%;
+    background-color: rgb(203, 249,234 );
+    padding: 4px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.botom{
+    text-align: center;
+    padding: 5%;
+}
+input[type=submit]:hover{
+    background-color: white;
+}
+#consultas{
+    text-align: justify;
+    width: 78%;
+    height: 50px;
+    box-sizing: border-box;
+    resize: none;
+}
+/* tarjetas*/
+.contenedorx{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.producto{
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #c8ecea;
+    margin: 15px;
+    text-align: center;
+    background-color:#f7efef;
+
+    transition: all 0.3s;
+}
+.producto:hover{
+    width: 230px;
+    transition: all 0.5s;
+}
+
+.producto img{
+    width: 100%;
+    height: auto;
+}
+.textocard{
+    padding: 10px;
+}
+
+.producto button{
+    color: #2b8686;
+    font-size: 20px;
+    text-decoration: none;
+    background-color:rgb(203, 249,234 );
+    padding: 5px; 
+    margin:px ;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+
+}
+
+.contenedorx p {
+    padding: 10px 0px;
+}
+
+
+/*large devices (992px and up)*/
+@media only screen and (max-width: 992px) {
+    .formulario {
+      width: 100%;
+    }
+}
+/*medium devices (768px and up)*/
+@media only screen and (max-width: 768px) {
+    .formulario {
+      width: 75%;
+    }
+}
+/*small devices (600px and up)*/    
+@media only screen and (max-width: 600px) {
+    .formulario {
+      width: 60%;
+    }
+}
+
+    
+
+    
+
+
+
